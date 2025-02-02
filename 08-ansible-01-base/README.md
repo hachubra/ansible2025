@@ -40,8 +40,8 @@
 ---
 ### Решение
 
-![Screen1](https://github.com/hachubra/ansible2025/blob/main/img/1.png)
-![Screen2](https://github.com/hachubra/ansible2025/blob/main/img/2.png)
+![Screen1](https://github.com/hachubra/ansible2025/blob/MNT-video/img/1.png)
+![Screen2](https://github.com/hachubra/ansible2025/blob/MNT-video/img/2.png)
 
 Подготовка окружения:
 ```bash
@@ -259,10 +259,10 @@ ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    s
 alex@ubu04:~/ansible2025/mnt-homeworks/08-ansible-01-base/playbook$ 
 ```
 
-![Screen3](https://github.com/hachubra/ansible2025/blob/main/img/3.png)
-![Screen4](https://github.com/hachubra/ansible2025/blob/main/img/4.png)
-![Screen5](https://github.com/hachubra/ansible2025/blob/main/img/5.png)
-![Screen6](https://github.com/hachubra/ansible2025/blob/main/img/6.png)
-![Screen7](https://github.com/hachubra/ansible2025/blob/main/img/7.png)
-![Screen8](https://github.com/hachubra/ansible2025/blob/main/img/8.png)
+![Screen3](https://github.com/hachubra/ansible2025/blob/MNT-video/img/3.png)
+![Screen4](https://github.com/hachubra/ansible2025/blob/MNT-video/img/4.png)
+![Screen5](https://github.com/hachubra/ansible2025/blob/MNT-video/img/5.png)
+![Screen6](https://github.com/hachubra/ansible2025/blob/MNT-video/img/6.png)
+![Screen7](https://github.com/hachubra/ansible2025/blob/MNT-video/img/7.png)
+![Screen8](https://github.com/hachubra/ansible2025/blob/MNT-video/img/8.png)
 
