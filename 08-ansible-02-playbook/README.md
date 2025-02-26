@@ -530,3 +530,4 @@ Playbook выполняет скачивание и установку clickhous
 ![Screen12](https://github.com/hachubra/ansible2025/blob/MNT-video/img/12.png)
 ![Screen13](https://github.com/hachubra/ansible2025/blob/MNT-video/img/13.png)
 
+
