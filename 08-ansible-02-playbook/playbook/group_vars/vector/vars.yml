@@ -1,0 +1,13 @@
+---
+vector_version: "0.31.0"
+vector_yaml_path: /etc/vector/vector.yaml
+
+vector_config:
+  sources:
+    file_one:
+      type: file
+      read_from: beginning
+      ignore_older_secs: 600
+      include:
+        - /tmp/vector.log
+        - /var/log/nginx/*
