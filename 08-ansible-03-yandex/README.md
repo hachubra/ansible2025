@@ -171,5 +171,9 @@ Playbook выполняет подготовку к установке nginx, у
 #### Скриншоты выполнения:
 ![Screen14](https://github.com/hachubra/ansible2025/blob/MNT-video/img/14.png)
 ![Screen15](https://github.com/hachubra/ansible2025/blob/MNT-video/img/15.png)
+![Screen16](https://github.com/hachubra/ansible2025/blob/MNT-video/img/16.png)
+![Screen17](https://github.com/hachubra/ansible2025/blob/MNT-video/img/17.png)
+![Screen18](https://github.com/hachubra/ansible2025/blob/MNT-video/img/18.png)
+![Screen19](https://github.com/hachubra/ansible2025/blob/MNT-video/img/19.png)
 
 
