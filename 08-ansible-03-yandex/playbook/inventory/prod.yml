@@ -2,21 +2,21 @@
 clickhouse:
   hosts:
     clickhouse-01:
-      ansible_host: 158.160.78.101 
+      ansible_host: 158.160.25.205
       ansible_user: centos
       ansible_python_interpreter: /usr/bin/python2.7
       ansible_ssh_private_key_file: /home/alex/.ssh/terra_new_key
 vector:
   hosts:
     vector-01:
-      ansible_host: 51.250.74.111
+      ansible_host: 158.160.63.187
       ansible_user: centos
       ansible_python_interpreter: /usr/bin/python2.7
       ansible_ssh_private_key_file: /home/alex/.ssh/terra_new_key
 lighthouse:
   hosts:
     lighthouse-01:
-      ansible_host: 89.169.129.240
+      ansible_host: 158.160.58.124
       ansible_user: centos
       ansible_python_interpreter: /usr/bin/python2.7
       ansible_ssh_private_key_file: /home/alex/.ssh/terra_new_key

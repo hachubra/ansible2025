@@ -176,4 +176,6 @@ Playbook выполняет подготовку к установке nginx, у
 ![Screen18](https://github.com/hachubra/ansible2025/blob/MNT-video/img/18.png)
 ![Screen19](https://github.com/hachubra/ansible2025/blob/MNT-video/img/19.png)
 
+Добавлена task для запуска clickhouse:
+![Screen20](https://github.com/hachubra/ansible2025/blob/MNT-video/img/20.png)
 
