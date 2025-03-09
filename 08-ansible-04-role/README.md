@@ -52,22 +52,22 @@
   ---
   - src: git@github.com:hachubra/ansible-clickhouse.git
     scm: git
-    version: 1.0.2
+    version: 1.0.3
     name: clickhouse-role 
 
   - src: git@github.com:hachubra/ansible-nginx.git
     scm: git
-    version: 1.0.3
+    version: 1.0.4
     name: nginx-role
 
   - src: git@github.com:hachubra/ansible-vector.git
     scm: git
-    version: 1.0.4
+    version: 1.0.5
     name: vector-role 
 
   - src: git@github.com:hachubra/ansible-lighthouse.git
     scm: git
-    version: 1.0.5
+    version: 1.0.6
     name: lighthouse-role 
 ```
 
