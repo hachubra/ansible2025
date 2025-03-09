@@ -1,0 +1,4 @@
+---
+# defaults file for vector-role
+vector_version: "0.31.0"
+vector_yaml_path: /etc/vector/vector.yaml

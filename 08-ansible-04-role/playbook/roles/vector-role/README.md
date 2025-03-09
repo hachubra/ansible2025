@@ -1,9 +1,9 @@
-# Ansible Role: clickhouse
+# Ansible Role: vector
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Deploy [Clickhouse](https://github.com/ClickHouse/ClickHouse) database system using ansible.
+Deploy [Vector](https://vector.dev) A lightweight, ultra-fast tool for building observability pipelines using ansible.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 
 | Name           | Default Value | Description                        |
 | -------------- | ------------- | -----------------------------------|
-| `clickhouse_ver` | 22.3.3.44 | Clickhouse package version. Also accepts `latest` as parameter. |
+| `vector_version` | 0.31.0 | Vector package version. |
 
 ## Example
 
@@ -24,12 +24,12 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 
 ```yaml
 ---
-- name: CLICKHOUSE
-  hosts: clickhouse
+- name: VECTOR
+  hosts:
+    - vector
   roles:
-    - role: clickhouse-role
-      tags: clickhouse
-
+    - role: vector-role
+      tags: vector
 ```
 
 ## License
@@ -39,6 +39,6 @@ This project is licensed under MIT License. See [LICENSE](/LICENSE) for more det
 
 ## Author Information
 
-[ClickHouse](https://clickhouse.com/docs/en/index.html) by [ClickHouse, Inc.](https://clickhouse.com/company/).
+[Vector](https://vector.dev/docs/) by [DATALOG](https://www.datadoghq.com/about/leadership/).
 
 Role by `Alex S`.

@@ -1,0 +1,27 @@
+---
+- name: NGINX
+  hosts:
+    - lighthouse
+  become: true
+  roles:
+    - role: nginx-role
+      tags: nginx
+
+- name: CLICKHOUSE
+  hosts: clickhouse
+  roles:
+    - role: clickhouse-role
+      tags: clickhouse
+
+- name: VECTOR
+  hosts:
+    - vector
+  roles:
+    - role: vector-role
+      tags: vector
+
+- name: LIGHTHOUSE
+  hosts: lighthouse
+  roles:
+    - role: lighthouse-role
+      tags: lighthouse

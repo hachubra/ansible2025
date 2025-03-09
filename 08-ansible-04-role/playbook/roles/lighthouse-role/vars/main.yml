@@ -1,0 +1,4 @@
+---
+# vars file for lighthouse-role
+dir: /var/lib/lighthouse
+logs: lighthouse

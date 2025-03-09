@@ -1,0 +1,12 @@
+---
+# vars file for vector-role
+
+vector_config:
+  sources:
+    file_one:
+      type: file
+      read_from: beginning
+      ignore_older_secs: 600
+      include:
+        - /tmp/vector.log
+        - /var/log/nginx/*

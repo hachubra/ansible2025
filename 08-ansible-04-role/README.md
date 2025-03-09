@@ -44,3 +44,29 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+### Решение.
+1. Файл `requirements.yml` :
+
+   ```yaml
+  ---
+  - src: git@github.com:hachubra/ansible-clickhouse.git
+    scm: git
+    version: 1.0.2
+    name: clickhouse-role 
+
+  - src: git@github.com:hachubra/ansible-nginx.git
+    scm: git
+    version: 1.0.3
+    name: nginx-role
+
+  - src: git@github.com:hachubra/ansible-vector.git
+    scm: git
+    version: 1.0.4
+    name: vector-role 
+
+  - src: git@github.com:hachubra/ansible-lighthouse.git
+    scm: git
+    version: 1.0.5
+    name: lighthouse-role 
+   ```

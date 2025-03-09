@@ -1,0 +1,10 @@
+# ---
+# # clickhouse_version: "22.3.3.44"
+# # clickhouse_packages:
+# #   - clickhouse-client
+# #   - clickhouse-server
+# #   - clickhouse-common-static
+# nginx_user: root
+# source: https://github.com/VKCOM/lighthouse.git
+# dir: /var/lib/lighthouse
+# logs: lighthouse
