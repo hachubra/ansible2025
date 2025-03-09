@@ -70,3 +70,15 @@
     version: 1.0.5
     name: lighthouse-role 
    ```
+2. 
+Репозиторий с Playbook:
+  1. [README.MD](https://github.com/hachubra/ansible2025/blob/MNT-video/08-ansible-04-role/README.md)
+
+Репозитории с ролями: 
+  1. [lighthouse](https://github.com/hachubra/ansible-lighthouse.git)
+  2. [clickhouse](https://github.com/hachubra/ansible-clickhouse.git)
+  3. [nginx](https://github.com/hachubra/ansible-nginx.git)
+  4. [vector](https://github.com/hachubra/ansible-vector.git)
+
+Установка ролей:
+  ![Screen21](https://github.com/hachubra/ansible2025/blob/MNT-video/img/21.png)
