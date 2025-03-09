@@ -48,7 +48,7 @@
 ### Решение.
 1. Файл `requirements.yml` :
 
-   ```yaml
+```yaml
   ---
   - src: git@github.com:hachubra/ansible-clickhouse.git
     scm: git
@@ -69,9 +69,9 @@
     scm: git
     version: 1.0.5
     name: lighthouse-role 
-   ```
-2. 
-Репозиторий с Playbook:
+```
+
+2. Репозиторий с Playbook:
   1. [README.MD](https://github.com/hachubra/ansible2025/blob/MNT-video/08-ansible-04-role/README.md)
 
 Репозитории с ролями: 
@@ -80,5 +80,5 @@
   3. [nginx](https://github.com/hachubra/ansible-nginx.git)
   4. [vector](https://github.com/hachubra/ansible-vector.git)
 
-Установка ролей:
+3. Установка ролей:
   ![Screen21](https://github.com/hachubra/ansible2025/blob/MNT-video/img/21.png)
