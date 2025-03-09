@@ -1,0 +1,40 @@
+---
+# tasks file for clickhouse-role
+- name: Get Clickhouse Distrib
+  block:
+    - name: Get Clickhouse Distrib
+      ansible.builtin.get_url:
+        url: "https://packages.clickhouse.com/rpm/stable/{{ item }}-{{ clickhouse_version }}.noarch.rpm"
+        dest: "./{{ item }}-{{ clickhouse_version }}.rpm"
+        mode: "0440"
+      with_items: "{{ clickhouse_packages }}"
+  rescue:
+    - name: Get clickhouse distrib
+      ansible.builtin.get_url:
+        url: "https://packages.clickhouse.com/rpm/stable/clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm"
+        dest: "./clickhouse-common-static-{{ clickhouse_version }}.rpm"
+        mode: "0440"
+- name: Install Clickhouse Packages
+  become: true
+  # become_user: centos
+  # become_method: su
+  ansible.builtin.yum:
+    name:
+      - clickhouse-common-static-{{ clickhouse_version }}.rpm
+      - clickhouse-client-{{ clickhouse_version }}.rpm
+      - clickhouse-server-{{ clickhouse_version }}.rpm
+    disable_gpg_check: true
+  notify: Start Clickhouse Service
+- name: Start Clickhouse
+  become: true
+  ansible.builtin.service:
+    name: clickhouse-server
+    enabled: true
+    state: started
+- name: Flush Handlers
+  ansible.builtin.meta: "flush_handlers"
+- name: Create Database
+  ansible.builtin.command: "clickhouse-client -q 'create database logs;' "
+  register: create_db
+  failed_when: create_db.rc != 0 and create_db.rc != 82
+  changed_when: create_db.rc == 0
