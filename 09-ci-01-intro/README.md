@@ -43,3 +43,13 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+## Решение 
+
+**Скриншоты схем workflow:**
+1. Схема Bug
+![Screen1](https://github.com/hachubra/ansible2025/blob/MNT-video/img/bugs.png)
+2. Схема для остальных типов
+![Screen2](https://github.com/hachubra/ansible2025/blob/MNT-video/img/others.png)
+
+
