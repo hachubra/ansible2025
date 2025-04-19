@@ -47,12 +47,15 @@
 ## Решение 
 
 **Скриншоты схем workflow:**
+
 1. Схема Bug
 ![Screen1](https://github.com/hachubra/ansible2025/blob/MNT-video/img/bugs.png)
+
 2. Схема для остальных типов
 ![Screen2](https://github.com/hachubra/ansible2025/blob/MNT-video/img/others.png)
 
 **XML файлы схем:**
-[BUGS](https://github.com/hachubra/ansible2025/blob/MNT-video/09-ci-01-intro/neto_flow_bug.xml)
-[Others](https://github.com/hachubra/ansible2025/blob/MNT-video/09-ci-01-intro/neto_flow_others.xml)
+1. [BUGS](https://github.com/hachubra/ansible2025/blob/MNT-video/09-ci-01-intro/neto_flow_bug.xml)
+
+2. [Others](https://github.com/hachubra/ansible2025/blob/MNT-video/09-ci-01-intro/neto_flow_others.xml)
 
