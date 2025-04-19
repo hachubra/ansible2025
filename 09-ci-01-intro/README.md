@@ -52,4 +52,7 @@
 2. Схема для остальных типов
 ![Screen2](https://github.com/hachubra/ansible2025/blob/MNT-video/img/others.png)
 
+**XML файлы схем:**
+[BUGS](https://github.com/hachubra/ansible2025/blob/MNT-video/09-ci-01-intro/neto_flow_bug.xml)
+[Others](https://github.com/hachubra/ansible2025/blob/MNT-video/09-ci-01-intro/neto_flow_others.xml)
 
