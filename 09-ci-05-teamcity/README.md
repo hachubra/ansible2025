@@ -114,3 +114,22 @@ nexus-01                   : ok=16   changed=1    unreachable=0    failed=0    s
 alex@ubu04:~/ansible2025/mnt-homeworks/09-ci-05-teamcity$ 
 ```
 
+---
+
+Fork репозитория [example-teamcity](https://github.com/hachubra/example-teamcity)
+
+**Скриншоты работы:**
+
+Nexus:
+
+![Screen1](https://github.com/hachubra/ansible2025/blob/MNT-video/img/Screenshot_4.png)
+
+Teamcity:
+
+![Screen2](https://github.com/hachubra/ansible2025/blob/MNT-video/img/Screenshot_3.png)
+![Screen5](https://github.com/hachubra/ansible2025/blob/MNT-video/img/Screenshot_6.png)
+
+**Настройки:** 
+
+![Screen3](https://github.com/hachubra/ansible2025/blob/MNT-video/img/Screenshot_5.png)
+![Screen4](https://github.com/hachubra/ansible2025/blob/MNT-video/img/Screenshot_7.png)
