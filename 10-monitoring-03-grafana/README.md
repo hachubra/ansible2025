@@ -77,7 +77,7 @@ node_load15{job="nodeexporter", instance="nodeexporter:9100"}
 ```
 
 ![Screen2](https://github.com/hachubra/ansible2025/blob/MNT-video/img/26.png)
-![Screen3](https://github.com/hachubra/ansible2025/blob/MNT-video/img/27.png)
+
 
 
 ## Задание 3
