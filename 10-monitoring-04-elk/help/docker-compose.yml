@@ -4,7 +4,7 @@
 ##kibana address: http://127.0.0.1:5601 будет доступно через ~1-2 мин
 #
 #
-version: '2.2'
+#version: '2.2'
 services:
 
   es-hot:
