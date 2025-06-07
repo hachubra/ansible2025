@@ -48,6 +48,38 @@
 
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
 
+### Решение 2
+
+- утилизация CPU для nodeexporter (в процентах, 100-idle):
+
+```bash 
+(sum by(instance) (rate(node_cpu_seconds_total{instance="nodeexporter:9100",job="nodeexporter", mode!="idle"}[10s])) / on(instance) group_left sum by (instance)((rate(node_cpu_seconds_total{instance="nodeexporter:9100",job="nodeexporter"}[10s])))) * 100
+```
+
+- CPULA 1/5/15:
+
+```bash 
+node_load1{job="nodeexporter", instance="nodeexporter:9100"}
+node_load5{job="nodeexporter", instance="nodeexporter:9100"}
+node_load15{job="nodeexporter", instance="nodeexporter:9100"}
+```
+
+- количество свободной оперативной памяти:
+
+```bash 
+100 - ((avg_over_time(node_memory_MemAvailable_bytes{instance="nodeexporter:9100",job="nodeexporter"}[10s]) * 100) / avg_over_time(node_memory_MemTotal_bytes{instance="nodeexporter:9100",job="nodeexporter"}[10s]))
+```
+
+- количество места на файловой системе:
+
+```bash 
+100 - ((avg_over_time(node_filesystem_avail_bytes{instance="nodeexporter:9100",job="nodeexporter",mountpoint="/",fstype!="rootfs"}[10s]) * 100) / avg_over_time(node_filesystem_size_bytes{instance="nodeexporter:9100",job="nodeexporter",mountpoint="/",fstype!="rootfs"}[10s]))
+```
+
+![Screen2](https://github.com/hachubra/ansible2025/blob/MNT-video/img/26.png)
+![Screen3](https://github.com/hachubra/ansible2025/blob/MNT-video/img/27.png)
+
+
 ## Задание 3
 
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
