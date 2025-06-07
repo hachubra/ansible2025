@@ -22,7 +22,7 @@
 Не используйте директорию [help](./help) при выполнении домашнего задания.
 
 ## Задание 1
-
+ 
 Вам необходимо поднять в докере и связать между собой:
 
 - elasticsearch (hot и warm ноды);
@@ -43,6 +43,16 @@ Filebeat следует сконфигурировать для отправки
 - скриншот интерфейса kibana;
 - docker-compose манифест (если вы не использовали директорию help);
 - ваши yml-конфигурации для стека (если вы не использовали директорию help).
+
+### Решение 1.
+
+Скриншот `docker ps` :
+
+![Screen5](https://github.com/hachubra/ansible2025/blob/MNT-video/img/29.png)
+
+Скриншот интерфейса kibana: 
+
+![Screen6](https://github.com/hachubra/ansible2025/blob/MNT-video/img/30.png)
 
 ## Задание 2
 
