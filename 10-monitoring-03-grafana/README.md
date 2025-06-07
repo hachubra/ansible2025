@@ -85,6 +85,18 @@ node_load15{job="nodeexporter", instance="nodeexporter:9100"}
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 1. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
+
+### Решение 3.
+
+Dashboard:
+
+![Screen3](https://github.com/hachubra/ansible2025/blob/MNT-video/img/27.png)
+
+Alerts:
+
+![Screen4](https://github.com/hachubra/ansible2025/blob/MNT-video/img/28.png)
+
+
 ## Задание 4
 
 1. Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
